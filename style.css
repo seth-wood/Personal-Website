@@ -124,12 +124,16 @@ a {
 .link-formatting {
   text-decoration-line: underline;
   text-decoration-color: #a3a3a3;
-  text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1rem;
   text-underline-offset: 2px;
 }
 
 a:hover {
-  opacity: 0.5;
+  text-decoration-color: #cac9c9;
+}
+
+a:visited {
+  text-decoration-color: #a3a3a3;
 }
 
 /* Mobile Device View */
