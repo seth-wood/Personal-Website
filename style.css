@@ -90,7 +90,7 @@ hr {
 }
 
 /* Hover Effect Section*/
-/* .hover-effect {
+/* /* .hover-effect {
   text-decoration: none;
   white-space: nowrap;
   color: #121314;
@@ -111,9 +111,7 @@ hr {
 
 .hover-effect:hover:after {
   top: 0%;
-}
-
-
+} */
 
 /* *Optional link amendemt */
 a {
@@ -132,8 +130,8 @@ a:hover {
   text-decoration-color: #cac9c9;
 }
 
-a:visited {
-  text-decoration-color: #a3a3a3;
+a::after {
+  text-decoration-color: #b8b8b8;
 }
 
 /* Mobile Device View */
